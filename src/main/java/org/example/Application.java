@@ -9,6 +9,9 @@ public class Application {
         }
     }
 
+    public void print() {
+        System.out.println("Welt");
+    }
 
     public static void main(String... args) {
         Application application = new Application();
